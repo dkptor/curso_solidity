@@ -3,7 +3,7 @@ pragma solidity 0.8.4;
 
 contract Exercicio01 {
     string public nomeVendedor;
-    uint256 private fatorBonus;
+    uint256 public fatorBonus;
 
     constructor(string memory vendedor, uint256 fator)  {
         nomeVendedor = vendedor;
@@ -15,4 +15,4 @@ contract Exercicio01 {
     }
 }
 //Exercicio01.(constructor)
-//0x99caa1d4ebf27ec78775eeba2c67fc3e9cc8e3a14cee6669f8a50a3a15dfe927
+//0xed3dad561fd320dd8687b3795c5265e6042ffa565393b214afe37f9f5f2ee0b5
